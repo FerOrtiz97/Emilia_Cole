@@ -1,0 +1,67 @@
+#header {
+    background-image: url(../img/emilia-music-top.jpg);
+    background-size: 100% 180px ;
+    background-repeat: no-repeat;
+    margin-top: -35px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#redes_music {
+    padding-bottom: 30px;
+    padding-right: 9px;
+}
+
+#redes_music li {
+display: inline;
+padding-top: 250px;
+}
+
+.music_body h1{
+    font-size: 65px;
+}
+
+.music_body h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+.destacado li{
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 40%;
+    font-weight: bold;
+}
+
+.music_body h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+#album {
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+
+}
+
+.music_body h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    opacity: 60%;
+    margin-top: -0.3%;
+    margin-bottom: 5%;
+}
+
+.music_body ol li{
+    line-height: 30px;
+}
+
+
+.music_body p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}

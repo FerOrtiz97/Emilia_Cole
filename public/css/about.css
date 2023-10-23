@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+.about_body {
+    background-image: url(../img/emilia-about.jpg);
+    background-size: 75%;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.about_body h1 {
+    font-size: 55px;
+    margin-top: 6%;
+}
+
+.about_body h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 3%;
+    color: rgb(52, 153, 125);
+}
+
+.about_body h6 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-left: 3%;
+    font-size: 12px;
+    color: rgba(64, 183, 150,90%);
+}
+
+#info {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

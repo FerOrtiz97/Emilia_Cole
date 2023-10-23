@@ -1,0 +1,98 @@
+body {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+a:hover{
+    color: rgb(52, 153, 125);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.header_horizontal {
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.nav_horizontal ul li {
+    display: inline;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    border-left: 1px solid black;
+}
+
+.contact_nav {
+    border-right: 1px solid black;
+}
+
+.nav_horizontal ul {
+    background-color: rgba(255, 255, 255, 40%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav_horizontal {
+    margin-top: 2%;
+}
+
+#redes {
+    padding-bottom: 30px;
+}
+
+#redes li {
+    display: inline;
+    padding-top: 250px;
+}
+
+.nav_vertical li {
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    padding-right: 1%;
+    line-height: 40px;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.header_vertical {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.redes_index li {
+    display: inline;
+}
+
+.redes_index {
+    text-align: left;
+}
+
+.nav_horizontal_music ul li {
+    display: inline;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    border-left: 1px solid black;
+}
+
+.nav_horizontal_music ul {
+    background-color: rgba(255, 255, 255, 40%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 4px;
+    margin-top: 26px;
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+.nav_horizontal_music {
+    padding-top: 2%;
+}
