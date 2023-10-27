@@ -4,7 +4,7 @@ const path = require('path');
 const port = 3000
 
 app.listen(port, () => {
-    console.log(`Servidor levantado en http://localhost:${3000}`);
+    console.log(`Servidor levantado en http://localhost:${port}`);
 });
 
 app.get("/", (req, res) => {

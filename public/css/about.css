@@ -1,35 +1,33 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
-
-.about_body {
-    background-image: url(../img/emilia-about.jpg);
-    background-size: 75%;
-    background-position: center right;
+.about-body {
+    background-image: url('../img/emilia-about.jpg');
     background-repeat: no-repeat;
+    background-size: 80% 650px;
+    background-position: right top;
 }
 
-.about_body h1 {
-    font-size: 55px;
-    margin-top: 6%;
+.about-titulo {
+    margin-top: 100px;
 }
 
-.about_body h3{
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    margin-left: 3%;
-    color: rgb(52, 153, 125);
+.about-titulo--titulo {
+    font-size: 60px;
 }
 
-.about_body h6 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    margin-left: 3%;
-    font-size: 12px;
-    color: rgba(64, 183, 150,90%);
+.about-paragraph {
+    color: rgb(102, 205, 170);
 }
 
-#info {
-    margin-top: 5%;
-    margin-bottom: 5%;
+.about-paragraph-container {
+    margin-top: 60px;
+}
+
+
+.about-paragraph-container--1__titulo {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.about-paragraph-container--2__titulo {
+    font-size: 30px;
+    margin-top: 10px;
 }

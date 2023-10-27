@@ -1,98 +1,63 @@
-body {
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontGeneral);
+  ;}
+
+
+
+.caja {
+  display: inline-block;
+  margin-left: auto;;
 }
 
-h1 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-a:hover{
-    color: rgb(52, 153, 125);
+i {
+  color: black;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-.header_horizontal {
-    text-align: right;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
+
+.general-body-nav-ul {
+  list-style-type: none;
 }
 
-.nav_horizontal ul li {
-    display: inline;
-    padding-right: 0.5%;
-    padding-left: 0.5%;
-    border-left: 1px solid black;
+.general-body-nav-ul-li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.contact_nav {
-    border-right: 1px solid black;
+.general-body-nav {
+  background-color: rgba(211, 211, 211, 0.5);
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
 }
 
-.nav_horizontal ul {
-    background-color: rgba(255, 255, 255, 40%);
-    padding-top: 15px;
-    padding-bottom: 15px;
+
+.general-body-nav-ul {
+  position: absolute;
+  left: 80%;
+  padding: 5px 0;
 }
 
-.nav_horizontal {
-    margin-top: 2%;
+
+
+.general-body-nav-ul-li {
+  display: inline-block;
+  margin-left: auto;
 }
 
-#redes {
-    padding-bottom: 30px;
+
+.general-caja-ul {
+  position: absolute;
+  left: 88%;
+  margin-top: 10px;
 }
 
-#redes li {
-    display: inline;
-    padding-top: 250px;
-}
-
-.nav_vertical li {
-    text-align: left;
-    display: block;
-    text-decoration: none;
-    padding-right: 1%;
-    line-height: 40px;
-    font-weight: bold;
-    opacity: 50%;
-}
-
-.header_vertical {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: black;
-}
-
-.redes_index li {
-    display: inline;
-}
-
-.redes_index {
-    text-align: left;
-}
-
-.nav_horizontal_music ul li {
-    display: inline;
-    padding-right: 0.5%;
-    padding-left: 0.5%;
-    border-left: 1px solid black;
-}
-
-.nav_horizontal_music ul {
-    background-color: rgba(255, 255, 255, 40%);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 4px;
-    margin-top: 26px;
-    margin-left: 5px;
-    margin-right: 4px;
-}
-
-.nav_horizontal_music {
-    padding-top: 2%;
+.general-caja {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 5px;
 }

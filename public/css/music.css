@@ -1,67 +1,92 @@
-#header {
-    background-image: url(../img/emilia-music-top.jpg);
-    background-size: 100% 180px ;
-    background-repeat: no-repeat;
-    margin-top: -35px;
-    margin-left: -8px;
-    margin-right: -8px;
+.music_body {
+  margin-top: 0;
 }
 
-#redes_music {
-    padding-bottom: 30px;
-    padding-right: 9px;
+.music-header {
+  background-image: url('../img/emilia-music-top.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100px;
 }
 
-#redes_music li {
-display: inline;
-padding-top: 250px;
-}
-
-.music_body h1{
-    font-size: 65px;
-}
-
-.music_body h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: normal;
-    color: black;
-}
-
-.destacado li{
-    list-style-type: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    opacity: 40%;
-    font-weight: bold;
-}
-
-.music_body h2 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 25px;
-}
-#album {
-    margin-top: 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: normal;
-
-}
-
-.music_body h6{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: normal;
-    font-size: 15px;
-    opacity: 60%;
-    margin-top: -0.3%;
-    margin-bottom: 5%;
-}
-
-.music_body ol li{
-    line-height: 30px;
+.music-nav {
+  background-color: rgba(211, 211, 211, 0.5);
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 20px;
 }
 
 
-.music_body p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: normal;
+.music-body-nav-ul {
+  position: absolute;
+  left: 80%;
+  padding: 10px 0;
+}
+
+
+.music-caja-ul {
+  position: absolute;
+  left: 88%;
+  top: 10%;
+}
+
+
+
+.music-direct-link {
+  margin-top: 20px;
+
+}
+
+
+.music-direct-link--container {
+  margin-top: 10px;
+  margin-left: 40px;
+  list-style-type: none;
+  margin-bottom: 45px;
+}
+
+.music-direct-link--link a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.music-album {
+  margin-bottom: 20px;
+}
+
+
+.music-list {
+  list-style-type: decimal;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.music-direct-link--link i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h6 a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.music-organic-love {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.music-video-paragraph--container {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.go-top {
+  margin-top: 20px;
 }
